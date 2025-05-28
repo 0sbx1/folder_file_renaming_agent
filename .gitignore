@@ -1,4 +1,4 @@
- # Environment variables
+# Environment variables
 .env
 
 # Python
@@ -19,11 +19,16 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 
-# IDE specific files
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
 .idea/
 .vscode/
 *.swp
